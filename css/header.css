@@ -25,7 +25,8 @@ header div.inner{ /* 하위선택자  */
   
   margin-top: 28px;
   position: absolute;
-  left: 50px;
+  left: 12px;
+  width: 97%;
 }
 
 header .inner,

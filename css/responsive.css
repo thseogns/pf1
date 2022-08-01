@@ -1,0 +1,172 @@
+@media screen and (max-width:1200px){
+  header .inner h1{
+    order:1;
+  }
+  header div.inner{
+    flex-wrap: wrap;
+    
+  }
+  
+  header .inner ul.gnb{
+    
+  order:3;
+  width: 100%;
+  justify-content: center;
+  }
+  header .inner ul.enb{
+    order:2;
+    
+  }
+  #title::before{
+     width: 78.54166666666667vw;
+  height: 20.20833333333333vw;
+  margin-top: 3.229166666666667vw;
+  }
+  #title form.search{
+    
+  width: 36.4583vw;
+  min-width: 600px;
+  }
+  
+  #taste .inner ul.list li{
+    width: calc((100% / 3) - (20px / 2));
+  }
+  #shop div.inner ul.list li{
+       width: calc((100% / 3) - (20px / 2));
+  
+  }
+  #shop div.inner ul.list{
+    flex-wrap: wrap;
+    
+  }
+  #community .inner:not(.faq){
+    display: block;
+    width: 90%
+  }
+  #community .inner > article{
+    width: 100%;
+      margin-bottom: 50px;
+    
+  }
+  #community .inner div{
+    width: 100%;
+      
+  }
+  #community .inner div article:not(.faq){
+    width: 100%;
+    
+    
+  }
+  #community .inner div article ul li{
+    width: 100%;
+    
+  }
+}
+@media screen and (max-width:768px) {
+ /*max-width 이하*/
+header .inner ul.gnb{
+  display: none;
+  
+}
+
+  header .inner ul.tnb{
+    
+  display: none;
+  }
+  
+  /*타이틀*/
+ 
+  #title{
+    
+  min-height: 36.45833333333333vw;
+  height: 100vw;
+  }
+
+  #title::before {
+    
+  width: 78.54166666666667vw;
+  height: 20.20833333333333vw;
+  margin-top: 3.229166666666667vw;
+  }
+  #title form.search{
+    
+    
+    
+  width: 36.4583vw;
+  min-width: 600px;
+  
+}
+  
+  #title ul.hash{
+    
+  gap: 20px;
+  }
+  #taste .inner ul.list li{
+    
+    /*브랜드 샵*/
+    
+  width: calc((100% / 2) - (20px / 2));
+  }
+  #shop div.inner ul.list li{
+    
+  width: calc((100% / 2) - (20px /2));
+  }
+  #shop div.inner ul.list{
+    
+  flex-wrap: wrap;
+  }
+  #community .inner{
+    width: auto;
+    gap: inherit;
+    box-shadow: 0 0 0 transparent;
+    
+  }
+  #community .inner > article{
+    width: calc(85%);  
+    
+  
+  }
+  #community .inner > article.sinmungo{
+   
+  }
+    #community .inner div{
+    width: auto;
+    gap: inherit;
+    box-shadow: 0 0 0 transparent;
+    
+  }
+  #community .inner div article ul{
+    display: block;
+    
+  }
+  #community .inner div article ul li{
+    width: calc(100%);
+   line-height: 1.5;
+    padding: 10px 0;
+    
+  /*! width: 100%; */
+    margin-bottom: 10px;
+  }
+  #community .inner div article ul li a{
+    
+  }
+  #community .inner div article:not(.faq){
+    width: calc(100%);    
+  }
+  footer .inner{
+    display: block;
+    height: auto;
+    
+  }
+  footer .inner .left address{
+    transform: translateY(0);
+    
+    
+  }
+  footer .inner .left{
+    left: 20px;
+    
+  }
+
+}
+

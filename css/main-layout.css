@@ -1,3 +1,4 @@
+
 /* 빙그레맛 */
 #taste {
     
@@ -184,35 +185,78 @@ margin-bottom:50px;
 /* 커뮤니티 */
 #community {
   
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 #community .inner {
 
+  width: 1400px;
+  margin: 0 auto;
+  /*! border: 2px solid #ccc; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  box-shadow: 0 0 11px #ccc;
+  /*! margin-top: 100px; */
 }
 #community .inner h2 {
   
+  display: none;
 }
 #community .inner > *{
 
 }
+#community .inner > *:not(div){
+  
+}
 #community .inner > article {
 
+  width: calc(100% / 2 - 50px / 2);
 }
 #community .inner > article.cyber {
 
+  background-color: #f8c2c2;
 }
 #community .inner > article.sinmungo {
 
 }
 #community .inner > article h3 {
-  
+  font-size: 27px;
+  font-weight: bold;
+  /*! text-align: center; */
+  /*! border: 5px solid; */
+  margin-top: 30px;
+  /*! width: 117px; */
+  /*! margin: 0 auto; */
+  /*! margin-top: 30px; */
+  /*! padding-top: 10px; */
+  /*! height: 200px; */
+  /*! line-height: 200px; */
+  /*! display: flex; */
+  /*! align-items: center; */
+}
+#community .inner > article h3::before{
+  /*! content: "["; */
+  vertical-align: 3px;
+}
+#community .inner > article h3::after{
+  /*! content: "]"; */
+  vertical-align: 3px;
 }
 #community .inner > article p {
   
+  width: 150px;
 }
 #community .inner > article > a {
   
 }
 #community .inner div{
+
+}
+#community .inner>*:not(.cyber){
 
 }
 #community .inner div article {
@@ -232,6 +276,8 @@ margin-bottom:50px;
 }
 #community .inner div article h3 {
 
+  font-size: 27px;
+  font-weight: bold;
 }
 #community .inner div article ul {
 
@@ -249,7 +295,14 @@ margin-bottom:50px;
   
 }
 
-
+@media screen and (max-width:1920px){
+  #community .inner{
+    
+  width: 72.91666666666667vw;
+    height: 21.35416666666667vw
+      
+  }
+}
 
 
 
